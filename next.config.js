@@ -34,4 +34,9 @@ const nextConfig = {
   },
 };
 
+module.exports = {
+  api: {
+    maxDuration: 10, // 10 seconds
+  },
+};
 module.exports = nextConfig;
